@@ -5,7 +5,9 @@ export default function Card(props) {
   return (
     <div className='card'>
         <div className='card-inner'>
+          <div className='img-block'>
             <img className='card-img' src={props.item.cover} alt='each card img'></img>
+          </div>
             <h3 className='card-title'>{props.item.title}</h3>
             <p style={{color: 'rgba(68, 73, 87, 1)'}}>
             PLorem Ipsum is simply dummy text of the printing and 
